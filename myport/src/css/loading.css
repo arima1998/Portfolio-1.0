@@ -1,0 +1,13 @@
+.LL{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,120,255,1) 100%);
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .text-animation {
+    animation: fadeInOut 1s linear infinite;
+  }
