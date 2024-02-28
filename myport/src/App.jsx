@@ -5,7 +5,7 @@ import CustomLoading from './components/CustomLoading';
 
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(0); /// to set loading effect set it to true
 
   useEffect(() => {
     const timer = setTimeout(() => {

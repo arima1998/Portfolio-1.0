@@ -1,9 +1,12 @@
 import React from 'react'
-
+import "../css/home.scss"
+import Navbar from './Navbar'
 const Homepage = () => {
   return (
     <div>
-      <section>Hero</section>
+      <section>
+        <Navbar/>
+      </section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Portfolio1</section>

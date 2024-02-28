@@ -1,6 +1,6 @@
 .LL{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,120,255,1) 100%);
+  background: rgb(7,5,31);
+  background: linear-gradient(90deg, rgba(7,5,31,1) 13%, rgba(9,7,24,0.9719537473192402) 42%, rgba(30,57,86,1) 100%);
 }
 @keyframes fadeInOut {
     0% { opacity: 0; }
